@@ -39,8 +39,8 @@ var prerender = module.exports = function(req, res, next) {
 // penalized for cloaking.
 prerender.crawlerUserAgents = [
   'googlebot',
-  // 'yahoo',
-  // 'bingbot',
+  'yahoo',
+  'bingbot',
   'baiduspider',
   'facebookexternalhit',
   'twitterbot',
